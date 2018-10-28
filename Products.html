@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marit Creations</title>
+	
+
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	  <style type="text/css">
+
+	  	a
+	  	{
+	  		text-decoration: none;
+	  	}
+
+
+	  	.headings h1
+	  	{	margin-top: 140px;
+	  		text-align: center;
+	  		color: white;
+	  		font-weight: bold;
+	  	}
+	  	.navbar
+
+	  	{
+	  		min-height:100px;
+
+	  	}
+
+	  	.companyname
+	  	{
+	  		float: left;
+	  		padding-left: 15px;
+	  		vertical-align: center;
+	  	}
+
+	  	.navbar-brand
+	  	{	height:80px;
+	  		padding-top: 0px;
+	  		font-size: xx-large;
+	  		padding-bottom: 0px;
+	  		vertical-align: justify;
+	  	}
+
+	  	.menu
+	  	{
+	  		
+	  	}
+
+	  	.products
+	  	{	height: 1500px;
+	  		background-color:#002147;
+	  		
+	  	}
+
+
+	  	.item
+	  	{
+	  		max-height: 600px;
+	  		background-color: white;
+	  		border: 10px;
+	  		border-radius: 25px;
+	  		border-style: solid;
+	  		border-color: #002147;
+	  		padding: 10px;
+	  	
+
+	  	}
+
+	  	.item h1
+	  	{
+	  		padding: 5px;
+
+	  	}
+
+	  	.item img
+	  	{
+	  		display: block;
+	  		margin: auto;
+	  		max-height: 400px;
+	  		width: 80%;
+	  	}
+
+	  	.itemdescription
+	  	{
+	  		display: inline-block;
+	  		margin: auto;
+	  		width: 100%;
+	  	} 
+
+	  	.itemdescription h2
+	  	{
+	  		text-align: center;
+	  		font-size: medium;
+	  		font-weight: bold;
+
+	  	}
+
+	  	.price 
+	  	{
+	  		font-color:red;
+	  		font-size: x-large;
+	  		padding-left: 15px;
+	  	}
+
+
+
+
+
+	  	.contact
+	  	{	height: 500px;
+	  		background-color:rgba(0,0,0,0.5);
+	  	}
+
+	  	.contact_details
+	  	{
+	  		display: block;
+	  		background-color: rgba(255,255,255,0.5);
+	  		border:80px solid;
+	  		border-color:rgba(0,0,0,0.33);
+	  		max-height: 400px;
+	  		padding: 20px;
+	  		color: navy blue;
+	  		text-align: center;
+	  	}
+	  	
+	  	.contact_details h1
+	  	{
+	  		font-size: 24px;
+	  		font-family: sans-serif;
+	  		text-align: center;	
+	  		color: black;
+	  	}
+	  	
+
+	  </style>
+
+
+
+
+
+</head>
+
+
+
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top " id="navabr">
+
+
+
+      <!-- main navigation container-->
+	<div class="col-md-12">
+		<!-- Brand name-->
+		<div class=" companyname col-md-2 " style="line-height: 5px">
+			<h1 style=""><a class="navbar-brand" href="Home2.html">Marit Creations</a><h1>
+		</div>
+
+	
+		<!-- menu options-->
+		<div class="menu col-md-4">
+			
+			 <ul class="nav navbar-nav ">
+       
+        			<li ><a href="Home2.html" style="padding-top: 30px;"><h4>Home</h4></a></li>
+       				<li ><a href="#products" style="padding-top: 30px;"><h4>Products</h4></a></li>
+
+        			<!-- products dropdown-->
+        			<!-- <li class="dropdown">
+         				 <a class="dropdown-toggle" data-toggle="dropdown" href="#"  style="padding-top: 30px;"><h4><span class="caret"></span></h4></a>
+
+
+					         	 <ul class="dropdown-menu">
+					           		 <li><a href="#">Tops</a></li>
+					           		 <li><a href="#">Suits</a></li>
+					            	 <li><a href="#">Dress</a></li>
+					          	 </ul>
+					        
+					 </li> -->
+
+        			<li><a href="Home2.html#about" style="padding-top: 30px; "><h4>About</h4></a></li>
+       				<li><a href="#contact" style="padding-top: 30px; "><h4>Contact</h4></a></li>
+     		 </ul>
+
+ 	 	</div>
+
+
+ 	 	<!-- Search bar-->
+ 	 <div class="col-md-3">
+       <form class="navbar-form navbar-left" action="#">
+       <div class="input-group" style="padding-top: 30px;max-width: 100%;float: right;">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+       <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      	</div>
+    	</form>
+      </div>
+
+      <!-- cart signup login -->
+      <div style="width:20% ;float:right;">
+		      <ul class="nav navbar-nav navbar-right">
+		      	 <li><a href="Cart.html" style="padding-top: 30px;"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
+		        <li><a href="Signup.html" style="padding-top: 30px;"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		        <li><a href="Login.html" style="padding-top: 30px;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul>
+  	  </div>
+</nav>	
+ 
+
+
+
+<!-- Products -->
+
+<!-- products section-->
+
+<div class="products col-md-12 headings" id="products">
+	<h1>Products</h1>
+
+
+
+
+	<!-- Displayed Products -->
+
+			
+				<div class="item col-md-3" id="1000M">
+
+					<a href="product1.html"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div> 
+			
+
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div> 
+			
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div> 
+			
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div>
+			
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div>
+			
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div>
+			
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div>
+			
+
+
+				<div class="item col-md-3" id="1000M">
+
+					<a href="#"><img src="images/Dress 1_1.jpg"></a>
+					<div class="itemdescription">
+						<h2>Pink color Kurta</h2>
+						<span style="width: auto; font-size: large;">Price:<i class="price" id="price">Rs.450</i></span>
+						<a href=""><button class="btn-success btn" style="float: right;">Add to <span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+					</div>
+				</div>
+			
+
+</div>
+
+
+<!-- Contact -->
+
+
+<div class="contact col-md-12 " id="contact">
+	<h1 style="text-align: center;color: white;font-weight: bold; margin-top: 140px;">Contact</h1>
+	<div class="contact_details col-md-6">
+		<h1>Madhu Kanwar</h1>
+			<span class="glyphicon glyphicon-envelope"></span>
+			<span>madhukanwar@hotmail.com</span><br>
+			<span class="glyphicon glyphicon-earphone"></span>
+			<span>+91 9960985427</span>
+			
+	</div>
+
+	<div class="contact_details col-md-6">
+		<h1>Ritika Shekhawat</h1>
+			<span class="glyphicon glyphicon-envelope"></span>
+			<span>paintdance14s@gmail.com</span><br>
+			<span class="glyphicon glyphicon-earphone"></span>
+			<span>+91 9920208064</span>
+				
+	</div>
+
+</div>
+
+
+
+</body>
+</h>
+
+
